@@ -6,6 +6,11 @@ body {
 
 a {
   text-underline-offset: 4px;
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 /* Шапка */
@@ -35,7 +40,7 @@ a {
   list-style: circle;
 }
 
-.header__links-list .header__links-list-item_no-bullit {
+.header__links-list-item_no-bullit {
   list-style-type: none;
 }
 
@@ -146,6 +151,10 @@ a {
   text-transform: uppercase;
   background-color: transparent;
   border: 1px solid #FFF;
+}
+
+.bet-button:hover {
+  cursor: pointer;
 }
 
 /* Лоты */
@@ -282,7 +291,7 @@ a {
 
 }
 
-.about__column p:first-of-type {
+.about__column .about__text:first-of-type {
   padding-bottom: 25px;
 }
 

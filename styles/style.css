@@ -56,6 +56,7 @@ a {
 .address {
   justify-self: end;
   font-style: normal;
+  width: 240px;
 }
 
 /* Обложка */
@@ -299,9 +300,9 @@ a {
   line-height: 135%;
 }
 
-.footer .address a {
+/* .footer .address a {
   text-decoration: none;
-}
+} */
 
 .footer__menu-list {
   list-style: none;
